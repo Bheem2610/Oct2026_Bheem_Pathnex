@@ -1,0 +1,10 @@
+Day2
+Joined the Linux class in the morning.
+Learn about basic commands.
+Feedback on youtube Video about the class.
+Push the code over Git.
+Practice on linux command.
+
+Day3
+Join the morning class
+follow the things accordingly.
