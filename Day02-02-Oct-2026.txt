@@ -1,0 +1,12 @@
+Day-2
+Wartch YouTube Videos on Pathnex to learn about Linux command.
+Practice on Linux commands
+Watch you tube video about Shell scripting.
+
+
+
+Day-3
+Join Training Session and Learn New Things (More on DevOps Tools)
+Commnet On youtube Video (Feedback)
+Push 2nd day code on Git
+Practice according to the calsse session.
