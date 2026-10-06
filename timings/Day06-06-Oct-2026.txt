@@ -1,0 +1,46 @@
+Day-6
+Join AWS 1st class and learn about below services
+
+onprem vs cloud
+
+Iaas Paas saas
+
+1. Landing Zone
+
+A Landing Zone is a pre-configured, secure, and scalable AWS environment designed to help organizations set up and govern multiple AWS accounts. It provides a foundation for security, networking, logging, and compliance best practices.
+
+2. AWS Control Tower
+
+AWS Control Tower is a service that automates the creation and management of an AWS Landing Zone. It helps organizations set up a secure multi-account AWS environment following AWS best practices.
+
+3. EC2 (Elastic Compute Cloud)
+
+Amazon EC2 is a web service that provides resizable virtual servers (instances) in the cloud. It allows users to run applications without owning physical hardware.
+
+4. IAM (Identity and Access Management)
+
+IAM is AWS's security service used to control who can access AWS resources and what actions they can perform.
+users, Groups, Roles and Policies
+
+5. VPC (Virtual Private Cloud)
+
+A VPC is a logically isolated virtual network within AWS where you can launch AWS resources securely.
+
+Features:
+
+Custom IP address range (CIDR)
+Public and Private Subnets
+Route Tables
+Internet Gateway and Nat Gateway
+Security Groups and Network ACLs
+Wartch YouTube Videos on Pathnex to learn about Linux command.
+Practice on Linux commands
+Watch you tube video about Shell scripting.
+
+
+
+Day-7
+Join Training Session and Learn New Things (More on DevOps Tools)
+Commnet On youtube Video (Feedback)
+Push 2nd day code on Git
+Practice according to the calsse session.
