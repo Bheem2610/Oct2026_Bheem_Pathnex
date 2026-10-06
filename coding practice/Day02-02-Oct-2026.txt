@@ -1,12 +1,16 @@
-Day-2
-Wartch YouTube Videos on Pathnex to learn about Linux command.
-Practice on Linux commands
-Watch you tube video about Shell scripting.
+Ansible — Install & Enable Nginx
+- name: Install and start Nginx on Pathnex
+  hosts: all
+  become: yes
 
+  tasks:
+    - name: Install nginx
+      yum:
+        name: nginx
+        state: present
 
-
-Day-3
-Join Training Session and Learn New Things (More on DevOps Tools)
-Commnet On youtube Video (Feedback)
-Push 2nd day code on Git
-Practice according to the calsse session.
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
