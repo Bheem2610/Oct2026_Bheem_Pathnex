@@ -1,0 +1,23 @@
+Day - 8
+In Todays class we learned about few more importent AWS services as given below.
+After class I read about these services more to and Practice on them.
+
+AWS Shield → Protects applications from DDoS attacks (large-scale traffic attacks that try to make a website unavailable).
+
+AWS WAF (Web Application Firewall) → Filters and blocks malicious web requests before they reach your application.
+
+Amazon GuardDuty → Continuously monitors AWS accounts and workloads for security threats and suspicious activity.
+
+Amazon Inspector → Scans AWS resources for security vulnerabilities and compliance issues.
+
+AWS Key Management Service (KMS) → Creates and manages encryption keys to protect your data.
+
+AWS Systems Manager (SSM) → Helps you manage, monitor, and automate AWS resources and servers.
+
+Amazon RDS (Relational Database Service) → Managed service for running relational databases like MySQL, PostgreSQL, SQL Server, and Oracle.
+
+Amazon Aurora → A high-performance, AWS-managed relational database compatible with MySQL and PostgreSQL.
+
+Amazon DynamoDB → Fully managed NoSQL database designed for fast and scalable applications.
+
+Amazon CloudFront → A Content Delivery Network (CDN) that delivers websites, videos, and APIs faster by caching content at global edge locations.
