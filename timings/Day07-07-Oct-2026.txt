@@ -1,0 +1,16 @@
+Day-7
+In today,s class I learned about below Services.
+
+S3: Store files and objects in the cloud.
+Session Manager: Securely access EC2 without SSH/port 22.
+Route 53: DNS service that routes users to applications.
+CloudTrail: Records who did what, when, and where in AWS.
+CloudWatch: Monitors AWS resources, logs, metrics, and alarms.
+Auto Scaling: Automatically adds or removes resources based on demand.
+Lambda: Runs code without managing servers.
+
+I will practice on these in day time.
+I will provide feedback on you tube video.
+I will Push code on git hub for today.
+
+
