@@ -1,0 +1,18 @@
+Day - 9
+In today,s class I learned about below topics,
+
+Amazon Redshift
+AWS DMS (Database Migration Service)
+AWS Batch
+AWS Glue
+Amazon Elastic File System (EFS)
+AWS Elastic Beanstalk
+AWS Snowball
+AWS CodePipeline
+AWS CodeBuild
+AWS CodeDeploy
+AWS X-Ray
+
+I Login into AWS console and view all services on interface that how these are works
+Comment on today,s class video on youtube.
+Push the code on git hub
