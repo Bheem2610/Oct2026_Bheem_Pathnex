@@ -1,0 +1,20 @@
+Day - 10
+In today's class I leared about docker.
+I practice on docker files that how to write and waht are the perameters.
+below are the basic points about docker.
+
+Docker is a containerization platform used to package applications and their dependencies together.
+Container is a lightweight, portable environment that runs an application.
+Helps applications run the same way on any system.
+Faster and uses fewer resources compared to virtual machines (VMs).
+Developers use Docker for development, testing, and deployment.
+Docker containers are created from Docker Images.
+Docker Hub is a repository to store and download Docker images.
+Containers are isolated from each other but share the host OS kernel.
+Supports microservices architecture by running multiple services in separate containers.
+Common commands:
+docker ps → List running containers
+docker images → List images
+docker run <image> → Run a container
+docker stop <container> → Stop a container
+docker rm <container> → Remove a container
