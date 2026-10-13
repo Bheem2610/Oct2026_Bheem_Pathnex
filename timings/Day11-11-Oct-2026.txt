@@ -1,0 +1,21 @@
+#Day - 11
+In today's class we learned about Kubernetes.
+
+below are the key pointes which we discussed in session.
+
+-> Kubernetes: An open-source platform used to deploy, manage, and scale containerized applications.
+
+-> Docker: Used to build and run containers, while Kubernetes manages containerized applications at scale.
+
+-> Cluster: A group of machines managed by Kubernetes.
+
+-> Node: A machine that runs application workloads.
+
+-> Pod: The smallest deployable unit in Kubernetes, containing one or more containers.
+
+-> Deployment: Manages application replicas and updates.
+
+-> Service: Provides a stable way to access Pods.
+
+-> Namespace: Logically separates resources within a Kubernetes cluster.
+
