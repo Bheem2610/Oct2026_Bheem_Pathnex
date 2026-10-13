@@ -1,0 +1,8 @@
+#Day - 12
+Today we learned about AWS EKS.
+We configure EKS on AWS console and also learn about all ste steps/configuration.
+We learned about diffrance in below - 
+
+Standard Support - This is the default support period for a Kubernetes version on Amazon EKS, typically lasting for 14 months from the time the version is generally available on the platform. It is the base duration for which the version is guaranteed and supported.
+
+Extended Support - This option provides an additional 12 months of support beyond the standard 14-month period, allowing users to run an Amazon EKS cluster version for a total of up to 26 months.
