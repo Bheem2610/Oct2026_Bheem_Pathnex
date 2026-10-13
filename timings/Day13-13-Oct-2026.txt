@@ -1,0 +1,10 @@
+#Day - 13
+Today we learn about Kubernets configuration using Terraform and discussed about below points
+
+Infrastructure as Code (IaC) with Terraform: Building a Kubernetes cluster using Terraform.
+Cluster Access & Management: Using SSH to log into worker nodes and understanding user permissions.
+Node & Pod Management: Understanding cluster architecture, how pods are assigned to nodes, and handling node reboots.
+High Availability & Anti-Affinity: Rules for ensuring application availability and using anti-affinity to prevent pods from running on the same node.
+Kubernetes Probes: Detailed explanation of Liveness, Readiness, and Startup probes.
+CoreDNS: Understanding the role of CoreDNS in service discovery and resolving IP addresses within the cluster.
+Troubleshooting: Using commands like kubectl describe pod to debug and understand cluster events.
