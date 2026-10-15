@@ -1,0 +1,48 @@
+#Day - 15
+
+Today was the 5th class of kubernets and I learn about some issue and resolution in practical
+below thing has been discussed in class
+
+	• Cluster Reconfiguration (kubeconfig): When recreating or applying Kubernetes clusters via Infrastructure as Code (Terraform), the local kubeconfig must be updated via AWS CLI commands to fetch new cluster ARNs and certificates before accessing the cluster.
+	• Namespaces: Logical boundary partitions within a cluster used to isolate and group resources (such as nginx workloads).
+	• Storage Classes (gp2 vs. gp3): Provisioning rules for AWS EBS storage. gp3 is the newer, faster, and cheaper storage class compared to legacy gp2.
+	• DaemonSets: A workload controller that guarantees exactly one Pod replica runs on every worker node in the cluster. It automatically scales up or down as nodes are added or removed, making it ideal for monitoring agents or CNI drivers.
+	• Deployments and ReplicaSets: A Deployment manages ReplicaSets to maintain the specified count of Pod replicas. Pods managed by Deployments get random generated names and are automatically replaced if deleted.
+	• Rolling Updates (MaxSurge and MaxUnavailable): A deployment strategy that enables zero-downtime updates:
+		○ MaxUnavailable: The maximum number or percentage of Pods that can be offline during an update.
+		○ MaxSurge: The maximum number or percentage of extra Pods that can be created above the desired replica count during the update process.
+	• Node Management (Cordon vs. Drain):
+		○ Cordon (kubectl cordon): Marks a node as unschedulable so no new Pods can be placed on it, while leaving existing running Pods untouched.
+		○ Drain (kubectl drain): Evicts and clears all running Pods from a node so node maintenance or upgrades can safely occur.
+	• Pod Disruption Budget (PDB): A policy manifest that defines the minimum number of available Pods during voluntary disruptions (such as node drains or upgrades), preventing accidental application downtime.
+	• StatefulSets: Used for stateful applications (such as databases) requiring unique, predictable Pod identifiers (pod-0, pod-1), persistent storage identity, and ordered creation and deletion.
+	• Labels and Selectors: Key-value pairs assigned to resources (Labels) and search queries used by Services, PDBs, or Controllers (Selectors) to match and target specific Pods.
+	• Kubernetes Cluster Upgrades: The process of upgrading cluster versions (e.g., EKS 1.35 to 1.36) by provisioning new version worker nodes, cordoning and draining old nodes, shifting workloads over, and terminating old nodes.
+	• Autoscaling (Metrics Server, HPA, and KEDA):
+		○ Metrics Server + HPA: Collects CPU/Memory utilization and automatically scales Pod replica counts.
+		○ KEDA (Kubernetes Event-driven Autoscaling): Scales Pods dynamically based on external events and metrics (such as Kafka lag or queue depth).
+	• Node Autoscaling (Karpenter): A node-level autoscaler that dynamically provisions or terminates worker nodes based on unscheduled pending Pod requests.
+	• Horizontal (HPA) vs. Vertical Pod Autoscaling (VPA):
+		○ HPA: Scales out/in by adjusting the number of Pod replicas without application downtime.
+		○ VPA: Scales up/down by adjusting the CPU and Memory resources allocated to existing Pods, which incurs downtime due to Pod restarts.
+	• Ingress Controller vs. Service Mesh (Istio):
+		○ Ingress Controller (NGINX): Provides basic HTTP/HTTPS routing, host-based virtual hosting, and SSL termination at the entry point.
+		○ Service Mesh (Istio): An advanced routing mechanism featuring Gateways, VirtualServices, microservice observability, and mTLS security.
+	• Taints and Tolerations:
+		○ Taints: Applied to nodes to repel Pods unless those Pods explicitly tolerate the taint.
+		○ Tolerations: Applied to Pod manifests allowing them to be scheduled onto tainted nodes (such as master nodes or dedicated GPU nodes). Effects include NoSchedule, PreferNoSchedule, and NoExecute.
+	• Node & Pod Affinity / Anti-Affinity:
+		○ Node Affinity: Constrains Pod placement based on node labels.
+		○ Pod Affinity: Schedules Pods close to other specific Pods on the same node or availability zone for low latency.
+		○ Pod Anti-Affinity: Spreads Pod replicas across different nodes or availability zones to achieve high availability.
+	• Init Containers vs. Sidecar Containers:
+		○ Init Containers: Run sequentially to completion before the main application container starts (e.g., database schema migration or pre-configuration).
+		○ Sidecar Containers: Run concurrently alongside the main application container for its entire lifecycle to assist with supporting tasks (e.g., log collection, proxying, monitoring).
+	• Persistent Volumes (PV) & Persistent Volume Claims (PVC):
+		○ Persistent Volume (PV): Cluster-scoped storage resource provisioned statically or dynamically.
+		○ Persistent Volume Claim (PVC): Namespace-scoped request for storage by a workload, acting as a ticket/claim bound to a PV.
+	• Health Probes:
+		○ Liveness Probe: Checks if the application container is running properly; restarts the container if it fails.
+		○ Readiness Probe: Checks if the container is ready to handle network traffic; removes it from Service endpoints if it fails.
+		○ Startup Probe: Protects slow-starting applications by disabling Liveness/Readiness checks until initial startup completes
+
