@@ -1,0 +1,15 @@
+#Day-14
+In today's class I learned more about kubernetes.
+I learned how to configure K8S cluster using Terraform.
+also overview of below points 
+
+Introduction to Kubernetes: Understanding what Kubernetes (K8s) is, container orchestration, and why companies use it.
+Docker vs. Kubernetes: Distinguishing between containerization and orchestration.
+Architecture: Breakdown of the Control Plane and Worker Nodes, including components like the API Server, Scheduler, and Controller Manager.
+Core Concepts: Detailed explanation of Pods, Nodes, and Namespaces.
+Deployments & Services: How to manage application deployment, scaling, and networking.
+YAML Manifests & kubectl: Practical introduction to creating and managing resources using YAML configuration files and kubectl commands.
+Real-World Troubleshooting: Practical scenarios involving Istio gateways, virtual services, and resolving common connectivity issues in a live cluster.
+Networking & Load Balancing: Discussion on how services interact, the role of Load Balancers, and DNS records.
+Career Roadmap: Overview of the path to becoming a job-ready DevOps or Cloud Engineer
+
