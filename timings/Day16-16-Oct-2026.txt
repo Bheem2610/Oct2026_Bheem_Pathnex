@@ -1,0 +1,11 @@
+#Day - 16
+In todays's class I leared about helm.
+Below topics has been discussed in class.
+
+Helm Fundamentals: Introduction to Helm, its role in simplifying Kubernetes deployments, and how it acts as a package manager.
+Helm Architecture: Understanding core components like the Helm Client, Helm Charts, Releases, and Repositories.
+Helm Charts: Deep dive into the structure of charts, including Chart.yaml, values.yaml, and the templates/ directory.
+Essential Helm CLI: Practical commands for managing applications, including helm install, helm upgrade, helm rollback, and helm uninstall.
+Configuration Management: Using values.yaml for environment-specific deployments and overriding default chart configurations.
+Real-World Implementation: Managing Dev, QA, Staging, and Production environments, plus handling Helm dependencies and Subcharts.
+Troubleshooting: Best practices for debugging, including how to use kubectl describe for event inspection.
