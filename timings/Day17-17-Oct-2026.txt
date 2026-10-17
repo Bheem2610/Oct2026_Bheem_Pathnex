@@ -1,0 +1,11 @@
+#Day - 17
+In today's class I leared ArgoCD Fundamentals.
+below topics has been discussed in class which I have to practic for hands on.
+
+Introduction to DevOps Tools: Understanding the need for Kubernetes, Helm, and ArgoCD in modern cloud-native environments.
+Setting up the Jump Server: Detailed steps for creating an environment using AWS EC2 and configuring necessary tools like Terraform and kubectl.
+ArgoCD Fundamentals: Explaining the "GitOps" concept, where the Git repository acts as the single source of truth for application state.
+Managing Kubernetes Clusters: Using ArgoCD to manage application deployments across one or multiple clusters.
+Authentication and Security: Handling ArgoCD credentials, secrets, and password decryption/updates.
+Application Deployment: Practical demonstrations on deploying applications like Nginx and Grafana using Helm charts through ArgoCD.
+Scaling Concepts: Differentiating between Cluster Autoscalers and Horizontal Pod Autoscalers (HPA) and understanding the role of the Metrics Server
