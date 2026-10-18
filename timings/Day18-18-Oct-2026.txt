@@ -1,0 +1,10 @@
+#Day-18
+In Today's class I leared about Terraform.
+Below Topics has been discussed in class.
+Terraform Core Principles and Best Practices
+Importing Resources: Definition of terraform import, which allows bringing existing infrastructure into Terraform management.
+Declarative Approach: Explanation that Terraform follows a declarative model where you specify the desired state, and Terraform determines how to achieve it.
+Provider Configuration: Insights into the provider block and how Terraform references the official Terraform Registry to download necessary plugins and dependencies.
+Terraform Initialization: The terraform init command automates the download of provider plugins for example AWS, Google Cloud.
+Version Constraints: Best practices for managing provider versions, using stable releases for production environments, and troubleshooting registry lookup errors using version ranges.
+State Locking and Security: The terraform.lock.hcl file is explained as the source of truth for exact version dependencies.
