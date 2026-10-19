@@ -1,0 +1,15 @@
+#Day - 19
+In Today's class I learned about terraform trubleshooting
+Today we had a hands-on session on Terraform practical implementation along with some important interview questions.
+ 
+Below was the main key points of today's class
+
+Provider Configuration: How to manage multiple cloud providers like AWS, Azure, and Google Cloud within your configurations.
+Infrastructure as Code (IaC) Workflow: Understanding the cycle of initializing (terraform init), planning (terraform plan), and applying (terraform apply) configurations.
+State Management: Deep dive into how Terraform stores state, handles drift, and manages backend storage like S3.
+Scalability & Logic: Using count and for_each for resource creation and implementing defaults and locals for cleaner code.
+Advanced Concepts: Introduction to modules for reusability, Data Sources to read external information, and null resources for custom scripting.
+Troubleshooting: Strategies for resolving state drift, manual edits, and using terraform import to bring existing resources under management.
+
+
+
