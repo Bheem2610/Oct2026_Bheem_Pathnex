@@ -1,0 +1,50 @@
+#Day 17 — Multi-Cloud Deployments, Auto-healing, and Advanced CI/CD
+
+##Ansible — Auto-healing Web Servers with Systemd
+
+- name: Configure Auto-healing for Web Server
+  hosts: all
+  become: yes
+  tasks:
+    - name: Ensure nginx service is running
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+    - name: Setup auto-restart for nginx service
+      lineinfile:
+        path: /etc/systemd/system/nginx.service.d/override.conf
+        line: "Restart=always"
+        create: yes
+    - name: Reload systemd
+      command: systemctl daemon-reload
+#Terraform — Multi-Cloud Infrastructure with AWS and Azure
+# AWS VPC
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
+}
+
+# Azure VNet
+resource "azurerm_virtual_network" "main" {
+  name                = "pathnex-vnet"
+  location            = "East US"
+  address_space       = ["10.0.0.0/16"]
+  resource_group_name = azurerm_resource_group.main.name
+}
+
+# EC2 instance in AWS
+resource "aws_instance" "pathnex_ec2" {
+  ami           = "ami-0abcd1234abcd1234"
+  instance_type = "t2.micro"
+  region        = "us-east-1"
+}
+
+# Virtual Machine in Azure
+resource "azurerm_linux_virtual_machine" "pathnex_vm" {
+  name                = "pathnex-azure-vm"
+  resource_group_name = azurerm_resource_group.main.name
+  location            = azurerm_resource_group.main.location
+  size                = "Standard_B1s"
+  admin_username      = "azureuser"
+  admin_password      = "P@ssw0rd123!"
+}

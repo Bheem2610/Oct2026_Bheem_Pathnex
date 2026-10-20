@@ -1,0 +1,11 @@
+#Day - 5
+In todays class I leared about GitHub and below topics
+
+Git Commands:
+git add: Moves files from the untracked to the tracked/staged area.
+git commit: Saves changes to the committed area.
+git status: A vital tool for tracking which area your files are currently in.
+git reset --soft and git rm --cached: Used for managing and undoing changes.
+Branching & Collaboration: The video explores managing remote repositories, including pushing changes to GitHub, creating Pull Requests (PRs), and the necessity of approvals for merging code.
+Advanced Workflows: Introduction to Hot Fixes and Cherry-picking, showing how to apply specific fixes across different branches without merging entire branches.
+The host also clarifies the concept of forking in Git, noting that it creates an independent copy of a repository in the user's account
