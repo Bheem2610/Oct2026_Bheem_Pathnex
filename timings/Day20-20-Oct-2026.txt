@@ -1,0 +1,7 @@
+#Day - 20
+Today, there was no class, so I practiced Kubernetes and Terraform. I created a Terraform module using AI to write the code and deployed a Kubernetes cluster on AWS. Initially, I faced multiple issues, but I troubleshot and resolved them with the help of AI.
+1. I initially selected Kubernetes version 1.33, which was not supported by the t3.micro instance type.
+2. When I switched to t3.micro, it didn't have enough resources for the Kubernetes configuration.
+3. Finally, I ran into an issue where the nodes were not connecting to the Kubernetes cluster.
+I learned a lot of new things while troubleshooting these issues today.
+
