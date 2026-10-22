@@ -1,0 +1,11 @@
+#Day-21
+In today's class I learned about Ansibale,
+First of all discussed on Ansible basic Architecture and below are the key highlights - 
+
+Ansible Fundamentals & Architecture - Ansible is an agentless and push-based automation tool. It requires only SSH access on managed nodes and Python installed on the control node.
+Comparison with other tools - Unlike tools like Chef or Puppet which typically require master-client agent configurations, Ansible’s agentless nature simplifies deployment.
+Inventory Management - Neeraj explains the difference between manual inventory (static lists) and dynamic inventory (automatically updated lists).
+Playbooks & YAML - Playbooks are central to Ansible. The instructor demonstrates creating YAML files to define tasks, using modules like yum for package management and service for managing service states like Nginx.
+Execution & Troubleshooting - To run a playbook, use the ansible-playbook command with an inventory file. Neeraj emphasizes the importance of reading error messages and ensuring the correct environment setup, such as installing Ansible via pip.
+Infrastructure with Terraform - The masterclass integrates Terraform for provisioning AWS infrastructure. It covers data blocks to fetch existing resource values and the use of variables (vars.tf) for configuration.
+SSH & Secure Access - A significant part of the troubleshooting involves configuring SSH keys properly and using scp to copy necessary keys to servers, ensuring secure communication between the control node and managed instances.
