@@ -1,0 +1,8 @@
+#Day-22
+In Today's class I learned about Monitoring Fundamentals where we Understand the core concepts of monitoring versus observability, and the importance of metrics, logs, and distributed tracing in identifying system issues
+Also I learn about the below Key pointes -
+
+Infrastructure and Tools: A deep dive into essential industry-standard tools, including Prometheus for metric collection, Grafana for visualization and alerting, and Datadog for comprehensive infrastructure monitoring and APM.
+Kubernetes Observability: Strategies for monitoring Kubernetes clusters, managing add-ons like CoreDNS and Metrics Server, and using Helm charts to deploy monitoring stacks effectively.
+Troubleshooting and Incident Management: Real-world scenarios demonstrating how to diagnose node issues, manage resource constraints, and correlate telemetry data to reduce alert fatigue and speed up root cause analysis.
+Operational Best Practices: Managing cluster security with custom security groups, implementing persistent configuration via Terraform, and understanding the lifecycle of cloud resources.
