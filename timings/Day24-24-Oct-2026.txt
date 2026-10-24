@@ -1,0 +1,8 @@
+#Day - 24
+Today's class provides a comprehensive masterclass on CI/CD pipelines and DevOps automation
+below points has been discussed in class and I learned about CICD
+
+CI/CD Fundamentals: Understanding the core concepts of continuous integration, delivery, and deployment, and how to transition from manual tasks to automated workflows.
+Tooling Proficiency: Hands-on guidance and architectural deep dives into essential DevOps tools like Jenkins, GitHub Actions, GitLab CI, and Argo CD.
+Automation Strategies: Converting manual infrastructure and deployment commands (such as those for Terraform, Docker, and Kubernetes) into structured, stage-based pipeline scripts.
+Practical Implementation: Building production-ready pipelines, including setting up self-hosted runners, managing secrets, and configuring webhooks for real-time trigger integration.
