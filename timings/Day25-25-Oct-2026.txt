@@ -1,0 +1,9 @@
+#Day-25
+I today's class I learned about Appache Kafka,
+Below topics are explained in class
+
+Fundamentals of CI/CD: Explains the core concepts of Continuous Integration, Continuous Delivery, and Continuous Deployment.
+Tooling & Architecture: An in-depth look at major industry tools including Jenkins, GitHub Actions, GitLab CI/CD, and Argo CD.
+Pipeline Implementation: Step-by-step guides on building Jenkins pipelines, including the use of Jenkinsfile, Declarative vs. Scripted pipelines, and Shared Libraries.
+Hands-on Automation: Demonstrations on setting up automated build processes using Maven/Gradle, containerization with Docker, and deploying to Kubernetes.
+Infrastructure as Code (IaC): Integrating Terraform and Ansible into the CI/CD pipeline for automated infrastructure management.
