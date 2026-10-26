@@ -1,5 +1,5 @@
 #Day-25
-I today's class I learned about Appache Kafka,
+I today's class I learned about cicd,
 Below topics are explained in class
 
 Fundamentals of CI/CD: Explains the core concepts of Continuous Integration, Continuous Delivery, and Continuous Deployment.
