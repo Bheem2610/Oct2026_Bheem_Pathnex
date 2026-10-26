@@ -1,0 +1,11 @@
+#Day-23
+Today's class about  implementing the ELK Stack "Elasticsearch, Logstash, and Kibana" for centralized log management and observability.
+
+
+and below are the Key topics covered in class - 
+
+Log Parsing and Transformation: The process of analyzing, extracting, and structuring unstructured data from log files into a readable format for efficient searching and analysis.
+Infrastructure Configuration: Using Ansible to automate the deployment of the ELK stack components and Filebeat agents on client servers. The session covers managing server inventory, SSH configurations, and resource allocation to ensure stable performance.
+Pipeline Management: Configuring Logstash pipelines to receive log data via specific ports, apply filters like JSON parsing, and map timestamps for indexing.
+Elasticsearch Indexing: Managing indices, shards, and replicas, which are fundamental to how data is stored, searched, and scaled within the cluster.
+Kibana Visualizations: Creating dashboards to track system events, analyze log-in success or failure trends, and visualize key performance metrics.
