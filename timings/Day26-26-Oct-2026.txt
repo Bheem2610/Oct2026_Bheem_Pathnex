@@ -1,0 +1,6 @@
+#Day-26
+Today I practice on ELK on AWS.
+
+I Create .tf files to create EC2 - 2 workers node, one elk node and one ansible node.
+I configure everything successfully at the end,
+I faced many issue while creating and learn and trubleshoot issues. 
