@@ -1,0 +1,13 @@
+#day-27
+Today's class about SSL/TLS. 
+I learned blow key points
+
+Secure Communication Fundamentals: Explanation of how data is protected during transmission, covering the transition from legacy SSL to modern TLS standards.
+Encryption Basics: Differences between Symmetric and Asymmetric encryption, the role of cryptographic hashing, and the importance of forward secrecy.
+Public Key Infrastructure (PKI): Detailed breakdown of the Certificate Authority (CA) hierarchy, including root and intermediate CAs, as well as the issuance and validation lifecycle of X.509 digital certificates.
+TLS Handshake Mechanism: An in-depth look at the handshake process, covering ClientHello, ServerHello, and the key exchange phases necessary to establish a secure connection.
+Implementation & Management:
+
+OpenSSL Proficiency: Practical tutorials on using OpenSSL commands to generate keys, create Certificate Signing Requests (CSRs), and validate certificate chains.
+Certificate Lifecycle: Best practices for certificate monitoring, expiration management, rotation strategies, and dealing with self-signed vs. CA-signed certificates.
+Advanced Authentication: Understanding Mutual TLS (mTLS) for two-way authentication between clients and servers, a critical component for zero-trust microservices architectures.
