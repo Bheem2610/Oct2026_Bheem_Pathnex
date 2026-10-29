@@ -1,0 +1,49 @@
+#Day-29
+In Todays class I learned about SRE.
+It helped to me leared blow things on SRE
+
+SRE stands for Site Reliability Engineering. It is a way of using software engineering, automation, and monitoring to keep applications and IT services reliable, available,
+
+Important SRE concepts
+
+1. SLI — Service Level Indicator
+
+A measurement of how well a service is performing.
+
+2. SLO — Service Level Objective
+
+The reliability target the team wants to achieve.
+
+3. SLA — Service Level Agreement
+
+An agreement with customers that defines the expected service level and what happens if the commitment is not met.
+
+4. Error Budget
+
+The amount of unreliability allowed by an SLO.
+
+5. Toil
+
+Repetitive, manual operational work that can potentially be automated.
+
+5. SRE tools
+
+=>Monitoring: Prometheus and Grafana
+
+Collect metrics and visualize system health, resource utilization, and service performance.
+
+=>Logging: ELK Stack
+
+Search and analyze logs to investigate failures and identify root causes.
+
+=>Automation: Ansible, Bash, Python
+
+Automate configuration management, repetitive checks, and routine operations.
+
+=>Containers and orchestration: Kubernetes
+
+Manage containerized applications, health checks, scaling, and recovery.
+
+=>CI/CD: Jenkins and Git
+
+Automate software build, testing, and deployment workflows.
